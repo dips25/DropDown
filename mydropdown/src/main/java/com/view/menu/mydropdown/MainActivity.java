@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
               for (Object o : arr) {
 
-                  Toast.makeText(MainActivity.this, "Selected Value is:" + (String) o, Toast.LENGTH_SHORT).show();
+                  Toast.makeText(MainActivity.this, "You selected:" + (String) o, Toast.LENGTH_SHORT).show();
               }
 
 
